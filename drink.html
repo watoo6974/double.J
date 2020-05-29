@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>뿜빠이계산기</title>
+    <script src="drink.js"></script>
+    <link href="home.css" rel="stylesheet" type="text/css" >
+   </head>
+  <body>
+      <h1><a href="home.html">뿜빠이계산기</a></h1>
+    <div id="grid1">
+      <div class="menu">
+          <ul>
+              <li class="saw"><a href="drink.html">술쟁이계산기</a></li>
+              <li>기름값계산기</li>
+              <li>준비중..</li>
+              <li>준비중..</li>
+              <li>준비중..</li>
+
+          </ul>
+
+      </div>
+      <div id="grid2" class="board">
+        <div>
+            <form name="calc">
+                <table border : 2px solid black;, style = "margin-left : auto; margin-right : auto;" >
+              <tr>
+                  <td>인원수</td>
+                  <td>비음주자</td>
+              </tr>
+              <tr>
+                  <td><input type="text" name="a"></td>
+                  <td><input type="text" name="b"></td>
+              </tr>
+              <tr>
+                  <td>총계</td>
+                  <td><input type="text" name="c"></td>
+              </tr>
+              <tr>
+                  <td>안주</td>
+                  <td><input type="text" name="d"></td>
+              </tr>
+              <tr>
+                  <td>음주자금액</td>
+                  <td><input type="text" name="i"readonly ></td>
+              </tr>
+              <tr>
+                  <td>비음주자금액</td>
+                  <td><input type="text" name="e" readonly ></td>
+              </tr>
+    
+            </table>
+              <div class="button">
+              <input type="reset" value="초기화"/>
+              <input type="button" value="계산하기" onClick="calcNow()">
+              </div>
+          </form>
+    
+    </div>
+        <div class="item">준비중
+           
+      </div>
+    </div>
+  </body>
+</html>
