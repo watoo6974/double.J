@@ -1,7 +1,7 @@
 body {border : 3px solid black;}
 #grid1{
   display : grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 200px 3fr;
   background-color: lightgray;
 }
 #grid2{
