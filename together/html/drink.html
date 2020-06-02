@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>뿜빠이계산기</title>
+    <script src="drink.js"></script>
+    <link href="../css/drink.css" rel="stylesheet" type="text/css" >
+   </head>
+  <body>
+      <h1><a href="home.html">뿜빠이계산기</a></h1>
+      <div id="grid2" class="board">
+        <div>
+            <form name="calc">
+                <table border : 2px solid black;, style = "margin-left : auto; margin-right : auto;" >
+              <tr>
+                  <td>인원수</td>
+                  <td>비음주자</td>
+              </tr>
+              <tr>
+                  <td><input type="text" value="입력해주세요" name="a"></td>
+                  <td><input type="text" value="입력해주세요" name="b"></td>
+              </tr>
+              <tr>
+                  <td>총계</td>
+                  <td><input type="text" value="입력해주세요" name="c"></td>
+              </tr>
+              <tr>
+                  <td>안주</td>
+                  <td><input type="text" value="입력해주세요" name="d"></td>
+              </tr>
+              <tr>
+                  <td>음주자금액</td>
+                  <td><input type="text" name="i"readonly ></td>
+              </tr>
+              <tr>
+                  <td>비음주자금액</td>
+                  <td><input type="text" name="e" readonly ></td>
+              </tr>
+    
+            </table>
+              <div class="button">
+              <input type="reset" value="초기화"/>
+              <input type="button" value="계산하기" onClick="calcNow()">
+              </div>
+          </form>
+    
+    </div>
+        <div class="item">※ 술자리에 비음주자가 함께 계실 때에 뿜빠이를 도와드리는 계산기 입니다.
+           
+      </div>
+    </div>
+  </body>
+</html>
