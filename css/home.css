@@ -1,7 +1,7 @@
 body {border : 3px solid black;}
 #grid1{
   display : grid;
-  grid-template-columns: 200px 3fr;
+  grid-template-columns: 30% 70%;
   background-color: lightgray;
 }
 #grid2{
@@ -26,7 +26,7 @@ body {border : 3px solid black;}
   color : black;
 }
 #grid1 div ul li{
-  font-size: 24px;
+  font-size: 120%;
   text-align: center;
   list-style-type: none;
   border-bottom: 2px solid gray;
