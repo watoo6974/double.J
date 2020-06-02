@@ -18,16 +18,24 @@
                   <td>비음주자</td>
               </tr>
               <tr>
-                  <td><input type="text" value="입력해주세요" name="a"></td>
-                  <td><input type="text" value="입력해주세요" name="b"></td>
+                  <td><input type="text" value="입력해주세요" name="a" onclick="
+                    if (this.value ==='입력해주세요'){
+                    this.value = '';}"></td>
+                  <td><input type="text" value="입력해주세요" name="b" onclick="
+                    if (this.value ==='입력해주세요'){
+                    this.value = '';}"></td></td>
               </tr>
               <tr>
                   <td>총계</td>
-                  <td><input type="text" value="입력해주세요" name="c"></td>
+                  <td><input type="text" value="입력해주세요" name="c" onclick="
+                    if (this.value ==='입력해주세요'){
+                    this.value = '';}"></td></td>
               </tr>
               <tr>
                   <td>안주</td>
-                  <td><input type="text" value="입력해주세요" name="d"></td>
+                  <td><input type="text" value="입력해주세요" name="d" onclick="
+                    if (this.value ==='입력해주세요'){
+                    this.value = '';}"></td></td>
               </tr>
               <tr>
                   <td>음주자금액</td>
@@ -43,6 +51,7 @@
               <input type="reset" value="초기화"/>
               <input type="button" value="계산하기" onClick="calcNow()">
               </div>
+              
           </form>
     
     </div>

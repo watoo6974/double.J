@@ -22,3 +22,11 @@ function calc_plus(e, h){
     return Number(e) + Number(h);
 }
 
+function valueNone(){
+    if (this.value === '입력해주세요'){
+        this.value = '';
+    } else {
+
+    }
+    
+}
