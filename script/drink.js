@@ -21,4 +21,6 @@ function calc_divide(f, g){
 function calc_plus(e, h){
     return Number(e) + Number(h);
 }
-
+function Reset(){
+    document.resetbutton.reset();
+}
