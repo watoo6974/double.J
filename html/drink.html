@@ -12,18 +12,20 @@
       <div id="grid2" class="board">
         <div>
             <form name="calc">
-                <table border : 2px solid black;, style = "margin-left : auto; margin-right : auto;" >
+                <table border : 2px solid white;, style = "margin-left : auto; margin-right : auto;" >
               <tr>
                   <td>인원수</td>
-                  <td>비음주자</td>
-              </tr>
-              <tr>
                   <td><input type="text" value="입력해주세요" name="a" onclick="
                     if (this.value ==='입력해주세요'){
                     this.value = '';}"></td>
+              </tr>
+              <tr>
+                  
+                  <td>비음주자</td>
                   <td><input type="text" value="입력해주세요" name="b" onclick="
                     if (this.value ==='입력해주세요'){
-                    this.value = '';}"></td></td>
+                    this.value = '';}"></td>
+                    
               </tr>
               <tr>
                   <td>총계</td>
@@ -48,8 +50,8 @@
     
             </table>
               <div class="button">
-              <input type="reset" value="초기화"/>
-              <input type="button" value="계산하기" onClick="calcNow()">
+              <input type="image" src="../soruce/reset.png" onclick="reset">
+              <input type="image" src="../soruce/calc.png" onClick="calcNow()">
               </div>
               
           </form>

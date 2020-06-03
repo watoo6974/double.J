@@ -1,61 +1,43 @@
-body {border : 3px solid black;}
-#grid1{
-  display : grid;
-  grid-template-columns: 30% 70%;
-  background-color: lightgray;
-}
-#grid2{
-  display : grid;
-  grid-template-rows: 3fr 1fr;
-  border-left: 2px solid black;
-}
-.board{
-  background-color: white;
-  text-align : center;
-
-}
-#grid1 div ul{
-  text-align : center;
-  border-right: 0px solid;
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
-}
-#grid1 div ul li a{
-  text-decoration: none;
-  color : black;
-}
-#grid1 div ul li{
-  font-size: 120%;
-  text-align: center;
-  list-style-type: none;
-  border-bottom: 2px solid gray;
-  height: 50px;
+body {
+  border : 3px solid white;
+  background: linear-gradient( 45deg, #918de0, #c7c5f8);
   
 }
-
-
-#grid2 .item{
-  background-color: lightgoldenrodyellow;
-  text-align : center;
-  border-left: 1px solid black;
-  border-top: 1px solid black;
+#grid1{
+  display : grid;
+  grid-template-rows: 2fr 7fr 1fr;
+ 
 }
+
+
+
 h1 { 
-  border-bottom : 2px solid black;
+  border-bottom : 2px solid white;
   text-align: center;
   margin: 0px;  
 
 }
 h1 a {
   text-decoration: none;
-  color : black;
+  color : white;
 }
 .saw {
   background-color:gray;
 }
+table { width: 100%;
+  height: 300px;
+  text-align : center;
+  font-size : 20px;
+  font-weight: bold;
+  color: white;
+}
 
-#grid3 {
-  display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+
+
+.foot { 
+  color: white;
+  text-align: right;
+}
+.foot p {
+  margin-right: 20px;
 }
