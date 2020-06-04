@@ -1,0 +1,70 @@
+body {
+  border : 3px solid white;
+  background: linear-gradient( 45deg, #918de0, #c7c5f8);
+  
+}
+
+#grid2{
+  display : grid;
+  grid-template-rows: 3fr 1fr;
+  border-left: 2px solid white;
+}
+.board{
+
+  text-align : center;
+
+}
+
+#grid2 .item{
+  
+  text-align : center;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+  font-size: 20px;
+  color: white;
+  
+}
+h1 { 
+  border-bottom : 2px solid white;
+  text-align: center;
+  margin: 0px;  
+
+}
+h1 a {
+  text-decoration: none;
+  color : white;
+}
+
+
+#grid2 input { width: 40%;
+  height: 36px;
+  font-size: 100%;
+  text-align: center;
+  margin: 12px;
+  
+}
+
+.button input{
+
+  font-size: 150%;
+  color: white;
+  width: 15%;
+}
+.button img{
+  width: 15%;
+  font-size: 150%;
+  color: white;
+}
+#grid2 img{
+  width: 15%;
+  font-size: 150%;
+  color: white;
+}
+.help{
+  width: 20px;
+}
+p {
+  border: solid 2px white;
+  font-size: 36px;
+  color: white;
+}
