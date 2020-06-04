@@ -23,3 +23,4 @@ function calc_divide(x, a){
 function Reset(){
     document.resetbutton.reset();
 }
+Math.round(calc.f.value)

@@ -24,3 +24,5 @@ function calc_plus(e, h){
 function Reset(){
     document.resetbutton.reset();
 }
+
+Math.round(calc.i.value, calc.e.value)
