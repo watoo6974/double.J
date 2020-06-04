@@ -8,43 +8,43 @@
     <link href="../css/drink.css" rel="stylesheet" type="text/css" >
    </head>
   <body>
-      <h1><a href="home.html">뿜빠이계산기</a></h1>
+      <h1><a href="home.html">뿜빠이계산기</a><input class="help" type="image" src="../soruce/help.png" onclick="oilAlert()"></h1>
       <div id="grid2" class="board">
         <div>
             <form name="calc">
                 <table border : 2px solid white;, style = "margin-left : auto; margin-right : auto;" >
               <tr>
-                  <td>인원수 <input class="help" type="image" src="../soruce/help.png" onclick="alert('운전자를 포함한 인원입니다. 만약 3명이라면 3 이라고 쓰시면 됩니다')"></td>
+                  <td>인원수</td>
                   <td><input type="text" value="입력해주세요" name="a" onclick="
                     if (this.value ==='입력해주세요'){
                     this.value = '';}"></td>
               </tr>
               <tr>
                   
-                  <td>거리(km) <input class="help" type="image" src="../soruce/help.png" onclick="alert('함께한 총 주행거리를 쓰시면 됩니다 단위는 Km 입니다.')"></td>
+                  <td>거리(km)</td>
                   <td><input type="text" value="입력해주세요" name="b" onclick="
                     if (this.value ==='입력해주세요'){
                     this.value = '';}"></td>
                     
               </tr>
               <tr>
-                  <td>리터당 기름값 <input class="help" type="image" src="../soruce/help.png" onclick="alert('현재 유가의 최저가를 쓰시거나 자주 이용하는 주유소의 금액을 쓰시면 됩니다.')"></td>
+                  <td>리터당 기름값</td>
                   <td><input type="text" value="입력해주세요" name="c" onclick="
                     if (this.value ==='입력해주세요'){
                     this.value = '';}"></td></td>
               </tr>
               <tr>
-                  <td>평균연비(km/L) <input class="help" type="image" src="../soruce/help.png" onclick="alert('이용하시는 차량의 평균연비를 쓰시면 됩니다. 예를들어 1리터로 8.3km를 주행하신다면 8.3 을 입력하면 됩니다.')"></td>
+                  <td>평균연비(km/L)</td>
                   <td><input type="text" value="입력해주세요" name="d" onclick="
                     if (this.value ==='입력해주세요'){
                     this.value = '';}"></td>
               </tr>
               <tr>
-                  <td>톨비 <input class="help" type="image" src="../soruce/help.png" onclick="alert('통과하신 톨게이트의 비용을 쓰시면 됩니다. 합산하여 인원들과 나누게 됩니다.')"></td>
+                  <td>톨비</td>
                   <td><input type="text" name="e" ></td>
               </tr>
               <tr>
-                  <td>금액 <input class="help" type="image" src="../soruce/help.png" onclick="alert('주행에 함께한 모든인원이 운전자에게 주는 금액입니다')"></td>
+                  <td>금액</td>
                   <td><input type="text" name="f" readonly ></td>
               </tr>
     
