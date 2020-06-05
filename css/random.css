@@ -1,5 +1,5 @@
 html body {
-  margin: 48px;
+ 
   border : 3px solid white;
   background: linear-gradient( 45deg, #918de0, #c7c5f8);
 }
@@ -66,7 +66,10 @@ h1 a {
   margin: auto;
 }
 .help{
-  width: 20px;
+  width: 36px;
+  float: right;
+  margin-top: 3px;
+
 }
 p {
   border: solid 2px white;
@@ -91,8 +94,8 @@ p {
 
 .home{
   
-  float: right;
-  margin-right: 10px;
+  float: left;
+  margin-left: 10px;
 }
 h1 img{
   margin-top: 5px;
