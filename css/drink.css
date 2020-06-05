@@ -1,8 +1,10 @@
-body {
+
+html body {
+  margin: 48px;
   border : 3px solid white;
   background: linear-gradient( 45deg, #918de0, #c7c5f8);
-  
 }
+
 
 #grid2{
   display : grid;
@@ -68,4 +70,20 @@ input { width: 80%;
 }
 .help{
   width: 20px;
+}
+
+@media (min-width : 800px) {
+  html body {
+    width: 600px;
+    margin: auto;
+    margin-top: 48px;
+}
+
+#grid1 div h1 {
+    padding: 12px;
+}
+
+
+
+
 }

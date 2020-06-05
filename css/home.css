@@ -1,8 +1,17 @@
-body {
+html body {
+  margin: 48px;
   border : 3px solid white;
   background: linear-gradient( 45deg, #918de0, #c7c5f8);
-  
 }
+
+#grid1 div h1 {
+  padding: 12px;
+}
+
+tbody tr td {
+  padding-bottom: 24px;
+}
+
 #grid1{
   display : grid;
   grid-template-rows: 2fr 7fr 1fr;
@@ -40,4 +49,22 @@ table { width: 100%;
 }
 .foot p {
   margin-right: 20px;
+}
+
+@media (min-width : 800px) {
+  html body {
+    width: 600px;
+    margin: auto;
+    margin-top: 48px;
+}
+
+#grid1 div h1 {
+    padding: 12px;
+}
+
+tbody tr td {
+    padding-bottom: 24px;
+}
+
+
 }
