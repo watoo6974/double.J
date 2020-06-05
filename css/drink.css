@@ -67,18 +67,18 @@ input { width: 80%;
   color: white;
 }
 .help{
-  width: 36px;
+  width: 30px;
   float: right;
-  margin-top: 3px;
-  width: 4%;
+  margin-top: 5px;
+  margin-right: 5px;
 }
 
 .home{
-  
+  margin-top: 5px;
+  width: 30px;
   float: left;
   margin-left: 10px;
 }
-h1 img{
-  margin-top: 5px;
-  width: 4%;
-}
+  
+  
+

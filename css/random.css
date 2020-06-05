@@ -92,13 +92,18 @@ p {
   margin-top: 20px;
 }
 
+.help{
+  width: 30px;
+  float: right;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
 .home{
-  width: 4%;
+  margin-top: 5px;
+  width: 30px;
   float: left;
   margin-left: 10px;
 }
-h1 img{
-  margin-top: 5px;
-  width: 36px;
-  width: 4%;
-}
+  
+
