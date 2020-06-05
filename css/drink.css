@@ -72,18 +72,4 @@ input { width: 80%;
   width: 20px;
 }
 
-@media (min-width : 800px) {
-  html body {
-    width: 600px;
-    margin: auto;
-    margin-top: 48px;
-}
 
-#grid1 div h1 {
-    padding: 12px;
-}
-
-
-
-
-}

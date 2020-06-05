@@ -51,20 +51,3 @@ table { width: 100%;
   margin-right: 20px;
 }
 
-@media (min-width : 800px) {
-  html body {
-    width: 600px;
-    margin: auto;
-    margin-top: 48px;
-}
-
-#grid1 div h1 {
-    padding: 12px;
-}
-
-tbody tr td {
-    padding-bottom: 24px;
-}
-
-
-}
