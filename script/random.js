@@ -23,23 +23,23 @@ function btn() {
                        }
                     } else {
                        var y = Math.floor(Math.random()*2);
-                       document.getElementsByTagName('p')[0].innerHTML = (rdpeople[y])
+                       document.getElementsByTagName('p')[0].innerHTML = ("★"+rdpeople[y]+"★")
                    }
                 } else {
                    var y = Math.floor(Math.random()*3);
-                   document.getElementsByTagName('p')[0].innerHTML = (rdpeople[y])
+                   document.getElementsByTagName('p')[0].innerHTML = ("★"+rdpeople[y]+"★")
                }
             } else {
                var y = Math.floor(Math.random()*4);
-               document.getElementsByTagName('p')[0].innerHTML = (rdpeople[y])
+               document.getElementsByTagName('p')[0].innerHTML = ("★"+rdpeople[y]+"★")
            }
         } else {
            var y = Math.floor(Math.random()*5);
-           document.getElementsByTagName('p')[0].innerHTML = (rdpeople[y])
+           document.getElementsByTagName('p')[0].innerHTML = ("★"+rdpeople[y]+"★")
        }
      } else {
         var y = Math.floor(Math.random()*6);
-        document.getElementsByTagName('p')[0].innerHTML = (rdpeople[y])
+        document.getElementsByTagName('p')[0].innerHTML = ("★"+rdpeople[y]+"★")
 
     }
 }
