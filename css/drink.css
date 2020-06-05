@@ -36,9 +36,6 @@ h1 a {
   text-decoration: none;
   color : white;
 }
-.saw {
-  background-color:gray;
-}
 
 #grid3 {
   display: grid;
@@ -72,4 +69,12 @@ input { width: 80%;
   width: 20px;
 }
 
-
+.home{
+  
+  float: right;
+  margin-right: 10px;
+}
+h1 img{
+  margin-top: 5px;
+  width: 36px;
+}
