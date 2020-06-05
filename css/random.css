@@ -93,11 +93,12 @@ p {
 }
 
 .home{
-  
+  width: 4%;
   float: left;
   margin-left: 10px;
 }
 h1 img{
   margin-top: 5px;
   width: 36px;
+  width: 4%;
 }

@@ -10,11 +10,12 @@ html body {
   display : grid;
   grid-template-rows: 3fr 1fr;
   border-left: 2px solid white;
+  
 }
 .board{
 
   text-align : center;
-
+  
 }
 
 #grid2 .item{
@@ -69,7 +70,7 @@ input { width: 80%;
   width: 36px;
   float: right;
   margin-top: 3px;
-
+  width: 4%;
 }
 
 .home{
@@ -79,5 +80,5 @@ input { width: 80%;
 }
 h1 img{
   margin-top: 5px;
-  width: 36px;
+  width: 4%;
 }
