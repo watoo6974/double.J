@@ -21,7 +21,7 @@ html body {
 }
 .button{
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
+  grid-template-rows: 1.5fr 0.5fr;
 }
 
 #grid2 .item{
@@ -53,18 +53,13 @@ h1 a {
   
 }
 
-.button input{
-
-  font-size: 150%;
-  width: 15%;
-}
-
-#grid2 img{
-  width: 80%;
-  font-size: 150%;
-  color: white;
+div.button img {
+  width: 20%;
   margin: auto;
+  color: white;
 }
+
+
 .help{
   width: 36px;
   float: right;
@@ -94,7 +89,6 @@ p {
 
 .help{
   width: 30px;
-  float: right;
   margin-top: 5px;
   margin-right: 5px;
 }
@@ -102,7 +96,7 @@ p {
 .home{
   margin-top: 5px;
   width: 30px;
-  float: left;
+  text-align: left;
   margin-left: 10px;
 }
   
